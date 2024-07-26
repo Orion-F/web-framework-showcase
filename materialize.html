@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Materialize Example Site</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="nav-wrapper blue">
+      <a href="#" class="brand-logo">Materialize Example Site</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Packages</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#" class="btn">Log in</a></li>
+        <li><a href="#" class="btn primary">Sign up</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Features</a></li>
+    <li><a href="#">Packages</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#" class="btn">Log in</a></li>
+    <li><a href="#" class="btn primary">Sign up</a></li>
+  </ul>
+
+  <!-- Hero Section -->
+  <div class="parallax-container">
+    <div class="parallax"><img src="img/chicago.png" alt="Hero Image"></div>
+    <div class="section no-pad-bot">
+      <div class="container">
+        <h1 class="header center white-text">Welcome to Materialize Example Site</h1>
+        <div class="row center">
+          <h5 class="header col s12 light white-text">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+        <div class="row center">
+          <a href="#" class="btn-large waves-effect waves-light blue">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Features Section -->
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Features</h4>
+          <p class="left-align light">Materialize is based on Google's Material Design principles, providing a modern and intuitive user experience.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Responsive Design</h5>
+            <p class="light">Materialize is built to be fully responsive, making your site look great on any device.</p>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">Easy to Use</h5>
+            <p class="light">With a simple and easy-to-understand syntax, Materialize makes development a breeze.</p>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Modern Look</h5>
+            <p class="light">Using Materialize, you can create sleek, modern, and visually appealing websites effortlessly.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Packages Section -->
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center">
+          <h4>Packages</h4>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title">Package A</span>
+              <ul>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+              </ul>
+            </div>
+            <div class="card-action">
+              <a href="#">Sign Up</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title">Package B</span>
+              <ul>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+                <li>Feature 4</li>
+              </ul>
+            </div>
+            <div class="card-action">
+              <a href="#">Sign Up</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title">Package C</span>
+              <ul>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+                <li>Feature 4</li>
+                <li>Feature 5</li>
+              </ul>
+            </div>
+            <div class="card-action">
+              <a href="#">Sign Up</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="page-footer blue">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 center">
+          <h5 class="white-text">Materialize Example Site</h5>
+          <p class="grey-text text-lighten-4">by <a href="https://github.com/Orion-F" class="white-text">Orion Forowycz</a>. The source code is licensed <a href="http://opensource.org/licenses/mit-license.php" class="white-text">MIT</a>.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(elems);
+      var parallaxElems = document.querySelectorAll('.parallax');
+      var parallaxInstances = M.Parallax.init(parallaxElems);
+    });
+  </script>
+</body>
+</html>
