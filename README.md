@@ -1,6 +1,6 @@
 # Web Framework Showcase
 
-This project is a showcase designed to demonstrate the usage of popular CSS frameworks. It's available on GitHub pages at https://orion-f.github.io/web-framework-showcase/
+This project is a showcase designed to demonstrate the usage of popular CSS frameworks. It's available on GitHub pages at <https://orion-f.github.io/web-framework-showcase/>
 
 ## Usage
 
